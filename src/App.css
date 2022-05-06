@@ -23,16 +23,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+span{
+  color:#3fc4dc
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 1000px) {
+  #desktop-content{
+    display:none;
   }
 }
+

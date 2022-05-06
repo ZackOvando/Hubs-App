@@ -1,0 +1,142 @@
+.coming__soon__container{
+    height:100vh;
+    width:100vw;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: .3s ease-in-out;
+    color:white !important;
+}
+.hovered{
+    transition: .3s ease-in-out;
+    color:white;
+}
+.disabled:hover{
+    text-decoration: none !important;
+}
+.hoveredItem{
+    color:white;
+}
+.nothoveredItem{
+    color:white;
+}
+#lol{
+    transition: .3s ease-in-out;
+}
+.show{
+    opacity:1;
+}
+.hide{
+    opacity:0;
+}
+.gone{
+    opacity:.3;
+}
+#logo{
+    height:3rem;
+    width:3rem;
+    transition: .3s ease-in-out;
+}
+#coming__soon__logo{
+    height:100vh;
+    width:50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#coming__soon__content{
+    padding-left:3rem;
+    width:50vw;
+    height:100vh;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#coming__soon__title h1{
+    font-weight: 800;
+    letter-spacing: 1rem;
+    font-size: 8rem;
+    margin:0;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+}
+#coming__soon__title{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+#coming__soon__title:hover{
+    cursor:pointer;
+}
+#coming__soon__header p{
+    font-size: 1.2rem;
+    margin:0;
+    font-weight: 300;
+}
+#coming__soon__header{
+    position:absolute;
+    top:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#coming__soon__footer{
+    width:100vw;
+    height:auto;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    position:absolute;
+    bottom:1.5rem;
+    gap:5rem;
+}
+.coming__soon_item{
+    font-size: 1.2rem;
+    font-weight:300;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.coming__soon_item:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    #coming__soon__content{
+    padding-left:30px;
+}
+    #coming__soon__title h1{
+        font-weight: 800;
+        letter-spacing: 1rem;
+        font-size: 10vw;
+        margin:0;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+    }
+    .coming__soon__container{
+        position:fixed;
+    }
+    #coming__soon__footer{
+        width:100vw;
+        height:auto;
+        display:flex;
+        justify-content: left;
+        flex-direction: column-reverse;
+        align-items: left;
+        position:fixed;
+        bottom:1.5rem;
+        gap:1.5rem;
+    }
+    .coming__soon_item{
+        font-size: 5vw;
+        font-weight:300;
+        margin:0;
+        padding:0;
+        text-decoration: none;
+    }
+}

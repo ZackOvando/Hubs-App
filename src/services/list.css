@@ -1,0 +1,16 @@
+#list-container{
+    width:95%;
+    height:auto;
+    background-color: transparent;
+    z-index:1;
+    margin-top:10rem;
+    margin-bottom:5rem;
+    display:flex;
+    flex-direction: column;
+}
+.list-title{
+    color:white;
+    font-size:5rem;
+    font-weight:100;
+    margin:0;
+}

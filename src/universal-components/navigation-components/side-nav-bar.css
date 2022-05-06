@@ -1,0 +1,45 @@
+#nav-bar-container{
+    /*color*/
+    background-color:black;
+    opacity: 70%;
+    border-left: 1px solid rgb(75, 75, 75); 
+    /*positioning*/
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    right:0;
+    top:0;
+    /*children-positioning*/
+    align-items: center;
+    /*dimensions*/
+    height:100%;
+    width:6rem;
+    z-index:2;
+}
+#nav-bar-container-under{
+    /*color*/
+    /*positioning*/
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    right:0;
+    /*children-positioning*/
+    align-items: center;
+    /*dimensions*/
+    height:100%;
+    width: 4rem;
+    z-index:2;
+}
+#nav-bar-container-under h3{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:10rem;
+    height:2rem;
+    font-weight:100;
+    transform: rotate(-90deg);
+    /* This value is the OPPOSITE color of our background */
+}

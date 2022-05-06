@@ -1,0 +1,14 @@
+#tester-one{
+    background-color:red;
+    width:20rem;
+    height:20rem;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+#testerline{
+    height:5px;
+    background-color: white;
+    margin-right:1rem;
+    transition:.5s;
+}

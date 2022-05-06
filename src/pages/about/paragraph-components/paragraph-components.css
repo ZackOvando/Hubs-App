@@ -1,0 +1,36 @@
+.paragraph-component{
+    width:100%;
+    height:auto;
+    font-size:2rem;
+    display:inline-grid;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    transition: ease-in-out .5s;
+    margin-bottom:5rem;
+}
+.paragraph-component-one{
+    grid-template-columns:20px 1fr 1fr 20px;
+}
+.paragraph-component-two{
+    grid-template-columns:20px 1fr 20px;
+    font-size:4rem;
+}
+.paragraph-component-one:hover{
+    cursor:default;
+    color:white;
+    background-color: black;
+}
+.paragraph-component-one h2{
+    font-weight:500;
+    width:25rem;
+    justify-self: left;
+    align-self: top;
+}
+.paragraph-component p{
+    font-weight:300;
+    justify-self: left;
+    align-self: center;
+}
+.paragraph-component-title h2{
+    margin:0;
+}

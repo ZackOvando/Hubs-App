@@ -1,0 +1,43 @@
+#overlay-container{
+    top:0;
+    height:100%;
+    width:100%;
+    position: fixed;
+    background-color: white;
+    margin:auto;
+    overflow:hidden;
+    overflow-y: hidden;
+    /*positioning*/
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index:2;
+}
+.nav-list{
+    list-style-type: none;
+    padding-left:0 !important;
+}
+#x-icon-1{
+    height:2px;
+    width:2.5rem;
+    transform:rotate(45deg);
+    position: absolute;
+    transition:ease-in-out .2s;
+}
+#x-icon-2{
+    transition:ease-in-out .2s;
+    height:2px;
+    width:2.5rem;
+    transform:rotate(-45deg);
+    position: absolute;
+}
+#exit-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:3rem;
+    right:3rem;
+    height:3rem;
+    width:3rem;
+}

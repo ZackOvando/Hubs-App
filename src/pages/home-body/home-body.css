@@ -1,0 +1,85 @@
+#home-body-outer{
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:0 !important;
+    padding-bottom:1rem !important;
+}
+
+.test{
+    color:red !important;
+    margin-top:48rem !important;
+}
+.tester{
+    margin-top:100rem !important;
+}
+.home-body-inner-under{
+    width:45rem;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    height:inherit;
+    top:0;
+    opacity: 1;
+    z-index:0;
+}
+#home-body-inner-over{
+    overflow: hidden;
+    background-color: transparent;
+    width:45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:auto;
+    z-index:1;
+    color:white;
+    font-size: 4rem;
+}
+#title-section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 0;
+}
+#title-section h2{
+    margin:0;
+}
+#title-section p{
+    margin:0;
+    font-size:1.5rem;
+}
+.boxes img{
+    width:100%;
+}
+.boxes img:hover{
+    cursor:pointer;
+}
+.boxes h2{
+    margin:0;
+    font-size:2rem;
+    z-index:3;
+    right:28rem;
+    position: absolute;
+}
+.boxes{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    display:flex;
+    align-items: center;
+}
+#box h2{
+    overflow-y: hidden !important;
+    font-size:11rem !important;
+    background-image: url("../../assets/illusion.jpg");
+    background-size:5rem;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

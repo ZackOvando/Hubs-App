@@ -1,0 +1,135 @@
+.portfolio-item-header{
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.portfolio-item-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-bottom:7rem;
+}
+.portfolio-item-title > p{
+    margin:0;
+    font-size:1.5rem;
+}
+.portfolio-item-title > h2{
+    font-weight:200;
+    margin-top:-.5rem;
+    margin-bottom:.5rem;
+    font-size:8rem;
+}
+.portfolio-item-back{
+    position:absolute;
+    top:0;
+    text-align: center;
+    width:8rem;
+    left:1rem;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight:300;
+}
+.portfolio-item-sub-header{
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.portfolio-item-row{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    height:auto;
+    width:80%;
+    display:grid;
+    grid-template-columns: .3fr .3fr 1fr;
+}
+.portfolio-item-work-list li{
+    list-style: none;
+    font-size:2rem;
+    font-weight:300;
+}
+
+.portfolio-item-work-list ul{
+    padding-left:0;
+}
+.portfolio-item-work-client h3{
+    font-weight:300;
+    font-size:4rem;
+    margin:0;
+}
+.portfolio-item-work-breakdown p{
+    font-size:2rem;
+}
+.portfolio-item-content{
+    background-color:black;
+    width:100%;
+    height:auto;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio-item-content-divider{
+    width:100%;
+    height:3px;
+    background-color: white;
+    z-index:50;
+    margin-top:1rem;
+    margin-bottom:3rem;
+}
+.portfolio-item-content-title{
+    margin:0;
+    font-weight:300;
+    font-style: italic;
+}
+.color-palette{
+    width:100%;
+    height:10rem;
+    background-color: transparent;
+    display: flex;
+}
+.portfolio-item-content-container{
+    margin-top:10rem;
+    width:80%;
+    height:auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.color-palette div{
+    width:100%;
+}
+.color-palette-inner{
+    height:2rem;
+}
+.color-palette-outer{
+    height:4rem;
+}
+.color-palette-outer h3{
+    margin:0;
+    font-style: italic;
+    font-weight:300;
+    margin-top:1rem;
+}
+.portfolio-logo{
+    width:100%;
+    height:auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-logo img{
+    height:50rem;
+    width:auto;
+}

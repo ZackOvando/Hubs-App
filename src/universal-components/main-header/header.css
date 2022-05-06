@@ -1,0 +1,22 @@
+.header-one-outer-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-one-inner-container{
+    width:95%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    padding:0;
+    margin:0;
+}
+.header-one-inner-container h1{
+    margin:0;
+    font-size:10rem;
+}
+.header-one-inner-container > div{
+    margin:0;
+}

@@ -1,0 +1,20 @@
+.header-items-container{
+    display:inline-block;
+    padding:0;
+    height:auto;
+    font-size:2rem;
+    margin-right:1rem;
+}
+.header-items-container:hover{
+    cursor:pointer;
+}
+.header-items-container h3{
+    margin:0;
+    font-weight:200;
+}
+.header-item-line{
+    margin-top:0rem;
+    height:3px;
+    width:100%;
+    background-color: black;
+}

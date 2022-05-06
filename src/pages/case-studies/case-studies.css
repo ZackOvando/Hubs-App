@@ -1,0 +1,9 @@
+#case-studies-body{
+    width:100%;
+    height:auto;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}

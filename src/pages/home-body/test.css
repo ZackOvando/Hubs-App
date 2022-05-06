@@ -1,0 +1,28 @@
+.container {
+  width: 1px;
+  height: 100rem;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+.item {
+  width: inherit;
+  height: inherit;
+  background: white;
+  transform-origin: 50% 100%;
+}
+#big-text{
+  font-size:4rem;
+}
+#test{
+  background-color: red;
+}
+#box{
+  width:100%;
+  height:auto;
+  margin-top: 3rem;
+}
+#box h2{
+  margin:0;
+  font-size:12rem;
+}

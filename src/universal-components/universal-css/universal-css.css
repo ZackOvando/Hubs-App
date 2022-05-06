@@ -1,0 +1,23 @@
+*{
+    font-family: Helvetica, Sans-Serif !important;
+  }
+.medium{
+    font-weight:400;
+}
+.main-button{
+  width:auto;
+  height:auto;
+  padding:1rem 2rem;
+  font-size:1rem;
+  text-decoration: none !important;
+  background-color: black;
+  font-weight:300;
+  color:white;
+  text-decoration: none;
+  transition:.3s ease-in-out;
+}
+.main-button:hover{
+  cursor:pointer;
+  color:black;
+  background-color:white;
+}

@@ -1,0 +1,66 @@
+#main-contact-page{
+    width:100%;
+    height:auto;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-color: transparent;
+    top:0;
+    display:grid;
+    row-gap: 10rem;
+}
+#form-container h1{
+    justify-self: center;
+    font-size:4rem;
+    font-weight:400;
+}
+#form-container{
+    justify-self: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms{
+    justify-self: center;
+    background-color: transparent;
+    width:60%;
+    height:auto;
+    display:grid;
+    row-gap:1.5rem;
+}
+input[type="text"]{
+    background-color: transparent;
+    height:4rem;
+    width:100%;
+    border:0;
+    font-size:1.5rem;
+    border-bottom: 3px black solid;
+    transition: ease-in-out .5s;
+}
+input[type="text"]::placeholder{
+    color:gray;
+}
+input[type="text"]:placeholder-shown{
+    border-bottom: 3px gray solid;
+}
+input[type="text"]:focus{
+    outline:none;
+
+    border-bottom: 5px black solid;
+}
+
+input[value="Submit"]{
+    background-color: transparent;
+    border: none;
+    border-bottom:3px black solid !important;
+    height:3.5rem;
+    width:7rem;
+    font-weight: 600;
+    font-size:1.5rem;
+    justify-self: end;
+    transition:ease-in-out .3s;
+}
+input[value="Submit"]:hover{
+    cursor:pointer;
+    background-color: black;
+    color:white;
+}
